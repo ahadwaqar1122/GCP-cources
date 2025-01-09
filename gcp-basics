@@ -8,4 +8,4 @@ Each region have 3 zone
 
 3:Asia-pasific
 multi-region all region are inter-connected to each other they are giving avaialility and falut toularance
-multi-region service like global services :bigquery ,bugtable,cloudstorage,spanner,datastore,firestore and artifact registroy.
+multi-region resources like global services : App engin,bigquery ,bugtable,cloudstorage,spanner,datastore,firestore and artifact registroy.
