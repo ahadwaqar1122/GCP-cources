@@ -1,7 +1,11 @@
 Course-details:
-GCP-regions:
+GCP-regions: total regions 29
+ahowa region--4 region
+Each region have 3 zone
 1:USA
 
 2:Europ
 
 3:Asia-pasific
+multi-region all region are inter-connected to each other they are giving avaialility and falut toularance
+multi-region service like global services :bigquery ,bugtable,cloudstorage,spanner,datastore,firestore and artifact registroy.
