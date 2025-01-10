@@ -9,3 +9,11 @@ Each region have 3 zone
 3:Asia-pasific
 multi-region all region are inter-connected to each other they are giving avaialility and falut toularance
 multi-region resources like global services : App engin,bigquery ,bugtable,cloudstorage,spanner,datastore,firestore and artifact registroy.
+
+RESOURCE Herarchy
+1:Organisation: highest permission and policy
+
+2:Folder
+3:Projects
+4: Resources: Vm or any other resource all permission and rules will apply only on resources
+
