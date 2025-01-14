@@ -17,11 +17,14 @@ RESOURCE Herarchy
 3:Projects
 4: Resources: Vm or any other resource all permission and rules will apply only on resources
 
-Compute(vm)-------types  compute-engine
+Compute-engine-------types  compute-engine
                           k8s engine
                           vmware-engine
 Serverless-------App-engine
                  cloud-run
                 cloud-function
-
-
+ vm type on GCP
+ custom machine
+ we can create vm according to our need like its cpu and ram as per our need we can select
+predefined Machine
+but in predefined we can chose given formate that is best close to our need we can not go minimum limit of scope
