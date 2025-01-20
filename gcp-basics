@@ -29,14 +29,34 @@ Serverless-------App-engine
 predefined Machine
 but in predefined we can chose given formate that is best close to our need we can not go minimum limit of scope
 predefind GCE family or types
+
 General Purpose---------types
 E2   day-to-day computing a lower cost
 N1/N2/N2D   balanced price and performace accorss wide range of vm shapes
+Tau/T2D:    scale in and scale out workload instance
+
+Memory-Optimized--Instance-Type(RAM ultra high workload)
+M1/M2: ultra high memory workload task like cash memory or databases like work
+
+Compute-optimized(CPU)
+c2/C2D: compute workload like banking transctions Gamming ,add serving ,media transcoding
+
+Accelerated Optimized:
+A2: Grapgics cards support high supporting computing , parrallel processing
 
 compute optimized
 GCP use KVM hyperviser having linux base karnel 
 local SSD like aws instance store that is like temporary storage remove when stop vm so aviad long term data storage,its is also called direct attach stoage cannot migrate Cannot store OS max size upto 3TB.
 Persistant storge-bootable storage,can store OS on it ,network attached storage, max upto 64 TB ,Bydefault all Data is Encrypted by other cloud not have
 Google charge 1 on first start after that it will chage per second
+
+
+Share-core Machines--
+
+
+
+
+
+
 
 
