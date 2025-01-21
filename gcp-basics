@@ -49,8 +49,12 @@ local SSD like aws instance store that is like temporary storage remove when sto
 Persistant storge-bootable storage,can store OS on it ,network attached storage, max upto 64 TB ,Bydefault all Data is Encrypted by other cloud not have
 Google charge 1 on first start after that it will chage per second
 
-
+Other types of Instances
 Share-core Machines--
+    those machine that  can share its CPU like partial vcpu ,we can share its core for small workload or bach procesing
+Sole-tenent-Machine
+    It is Dedicated Hardware only for your infra no other can use the same hardware it is only for your workload and pay more this.
+     
 
 
 
