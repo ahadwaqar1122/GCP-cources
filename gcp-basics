@@ -57,7 +57,12 @@ Sole-tenent-Machine
      
 
 
+GCP vm pricing model
 
+1:sustained use discount like on-demand
+2:commited use discount--like reserved instance --one years   3 years
+ sole tenet also part of this like dedecated host
+3:preemtible or spot instance
 
 
 
