@@ -71,9 +71,20 @@ disktype/hardisk/storage/Block storage/bootable storage
           balanced pd(SSD)  --10gb
           Extem pd(SSD)--500gb
     2: Regional persistent disk
+        same types are in Regionsal disk like in zonal types
     3:Local Storage
-    4: Cloud storage Block
+       Non-persistent like instance store
+       its direct attached storage fast but temporary data delete incase of server stop.
+       Not Bootable
+ 
+    
+    4: Cloud storage Block 
+         object storage
+         Not bootable
+         
     5: filestore
+        shared storage
+        not bootable
           
 
 
