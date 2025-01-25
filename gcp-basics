@@ -64,6 +64,18 @@ GCP vm pricing model
  sole tenet also part of this like dedecated host
 3:preemtible or spot instance
 
+disktype/hardisk/storage/Block storage/bootable storage
+     1: zonal persistent Disk
+          standard pd(HDD) --10gb
+          ssd pd(SSD)   --gb
+          balanced pd(SSD)  --10gb
+          Extem pd(SSD)--500gb
+    2: Regional persistent disk
+    3:Local Storage
+    4: Cloud storage Block
+    5: filestore
+          
+
 
 
 
