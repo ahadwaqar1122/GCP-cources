@@ -27,6 +27,8 @@ Nearline storage:
 Coldline-Storage
 Coldline storage is also high avalable and infrequent access of data
 mean data can access after three month or max six month a once.
+Archive Data storage:
+
 
 Google cloud Database storage types
  Bigtable    firestore         Cloud SQL    Cloud Datastore    Cloud Spanner   MemoryStore
