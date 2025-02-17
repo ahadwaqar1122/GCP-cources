@@ -5,6 +5,12 @@ Cloud storage/object storage
 Type of Cloud storage
 Standard Storage      Nearline storage    coldlinestorage    Archive Storage
 
+standard storage details
+Hot storage like the data that can retive or access on daily base use standard storage 
+noraml storage
+fast reliable
+less data retrival time
+
 how many ways we can access cloud storage
 four ways we access the storage
 gui  gc utilies or cli    rest api client libiraries
