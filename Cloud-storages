@@ -11,7 +11,7 @@ Standard Storage      Nearline storage    coldlinestorage    Archive Storage
 standard storage details
 Hot storage like the data that can retive or access on daily base or frequently use standard storage
 low latency
-high durability like 99.999999999
+high durability like 99.999999999 or 99.95
 fast reliable
 less data retrival time
 regional service is redunent means its repica or object will remain in the same region
@@ -22,6 +22,7 @@ Nearline storage:
 2:nearline storage use where data can be access infrequently
 3: data can be  access from min month not later
 4:This storage can be use one or two time if use more retrival cost may effect.
+5: durability like 99.90% all other stoage have the same level of durabiltiy
 
 Google cloud Database storage types
  Bigtable    firestore         Cloud SQL    Cloud Datastore    Cloud Spanner   MemoryStore
