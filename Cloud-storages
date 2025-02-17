@@ -6,8 +6,9 @@ Type of Cloud storage
 Standard Storage      Nearline storage    coldlinestorage    Archive Storage
 
 standard storage details
-Hot storage like the data that can retive or access on daily base use standard storage 
-noraml storage
+Hot storage like the data that can retive or access on daily base or frequently use standard storage
+low latency
+high durability like 99.999999999
 fast reliable
 less data retrival time
 
