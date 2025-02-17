@@ -22,7 +22,11 @@ Nearline storage:
 2:nearline storage use where data can be access infrequently
 3: data can be  access from min month not later
 4:This storage can be use one or two time if use more retrival cost may effect.
-5: durability like 99.90% all other stoage have the same level of durabiltiy
+5: durability like 99.90% all other stoage have the same level of durabiltiy.
+
+Coldline-Storage
+Coldline storage is also high avalable and infrequent access of data
+mean data can access after three month or max six month a once.
 
 Google cloud Database storage types
  Bigtable    firestore         Cloud SQL    Cloud Datastore    Cloud Spanner   MemoryStore
