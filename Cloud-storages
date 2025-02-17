@@ -17,8 +17,11 @@ less data retrival time
 regional service is redunent means its repica or object will remain in the same region
 best is to chose dual-region or multi-region it means its replica will save in other region for high availability and fault tolernace.
 
-Nearline storage
-
+Nearline storage:
+1:it is low cost storage as compared to standard storage
+2:nearline storage use where data can be access infrequently
+3: data can be  access from min month not later
+4:This storage can be use one or two time if use more retrival cost may effect.
 
 Google cloud Database storage types
  Bigtable    firestore         Cloud SQL    Cloud Datastore    Cloud Spanner   MemoryStore
