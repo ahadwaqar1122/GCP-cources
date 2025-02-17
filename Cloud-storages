@@ -1,5 +1,8 @@
 Types of cloud storages
  cloud storage            Persistant disk            Filestore
+how many ways we can access cloud storage
+four ways we access the storage
+gui  gc utilies or cli    rest api client libiraries
 
 Cloud storage/object storage
 Type of Cloud storage
@@ -14,9 +17,8 @@ less data retrival time
 regional service is redunent means its repica or object will remain in the same region
 best is to chose dual-region or multi-region it means its replica will save in other region for high availability and fault tolernace.
 
-how many ways we can access cloud storage
-four ways we access the storage
-gui  gc utilies or cli    rest api client libiraries
+Nearline storage
+
 
 Google cloud Database storage types
  Bigtable    firestore         Cloud SQL    Cloud Datastore    Cloud Spanner   MemoryStore
