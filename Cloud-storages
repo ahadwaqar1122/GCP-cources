@@ -1,2 +1,5 @@
 Types of cloud storages
  cloud storage            Persistant disk            Filestore
+
+Google cloud Database storage types
+ Bigtable    firestore         Cloud SQL    Cloud Datastore    Cloud Spanner   MemoryStore
