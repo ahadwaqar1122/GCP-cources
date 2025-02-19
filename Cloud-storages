@@ -30,6 +30,12 @@ mean data can access after three month or max six month a once.
 Archive Data storage:
 Turbo-replication:
 Turbo-replication is a advance feature to replicate from one bucket to other with second ascyncronsly 
+storage bucket policy Types:
+Uniform:
+have same policy on all the object of the bucket.
+Fined-grain
+have diff policy base on policy type what kind of policy type want to implement on the object inshort we can set diff access ploicy for diff object in the same buckt
+by default policy is unform.
 
 Google cloud Database storage types
  Bigtable    firestore         Cloud SQL    Cloud Datastore    Cloud Spanner   MemoryStore
