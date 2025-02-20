@@ -35,7 +35,16 @@ Uniform:
 have same policy on all the object of the bucket.
 Fined-grain
 have diff policy base on policy type what kind of policy type want to implement on the object inshort we can set diff access ploicy for diff object in the same buckt
-by default policy is unform.
+by default policy is uniform.
+
+Bucket-Versioning:
+Cloud version enabled --non current version
+if live object delete --make non current Versions
+if non-current version delete cannot be recoverd
+Each Non-current object have a unique generation number
+
+
+
 
 Google cloud Database storage types
  Bigtable    firestore         Cloud SQL    Cloud Datastore    Cloud Spanner   MemoryStore
