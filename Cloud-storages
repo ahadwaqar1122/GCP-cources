@@ -43,6 +43,11 @@ if live object delete --make non current Versions
 if non-current version delete cannot be recoverd
 Each Non-current object have a unique generation number
 
+Life cycle Policy:
+signed URL in cloud-storage:
+signed URL is a way to give a permission to any unauthorized user of any particuler file in the storage class not all data only speceific file permission can give 
+with signed url for specific time period like 10 minutes or one houred.
+
 
 
 
