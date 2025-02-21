@@ -1,3 +1,4 @@
+s
 Types of cloud storages
  cloud storage            Persistant disk            Filestore
 how many ways we can access cloud storage
@@ -47,7 +48,13 @@ Life cycle Policy:
 signed URL in cloud-storage:
 signed URL is a way to give a permission to any unauthorized user of any particuler file in the storage class not all data only speceific file permission can give 
 with signed url for specific time period like 10 minutes or one houred.
-
+signed url is made of six things like:
+1: X-goog - Algorithms:--google used which algorithm to make this url
+2:x-goog-credentials: information of the url is in x-goog-credentials
+3:Date and time when signed url made .
+4: X-goog-expires: it means this signed url validation when it will expired maximum duration to expired signed url is 7 days but it in seconds.
+5: x-goog-signedheader:head of the request that use the signurl also with it.
+6: x-goog-signature: authentication signature also add with this head that access the request.
 
 
 
