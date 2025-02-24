@@ -22,10 +22,11 @@ work as NAT proxy but its by doing this due to high taffic NAT proxy cannot mana
 public ip and port on each vm provate ip address to communicate over the internet it is also called endromedia.
 2:cloud NAT allow inboud traffic but restrict inboud traffic.
 3:Cloud Nat gateway provid outboud connectivity to the following  services
-1:compute engine
-2:Google GKE (kubernets engine)
-3:cloud run
-4: CLoud function
-5:App engine
-
+ 1:compute engine
+ 2:Google GKE (kubernets engine)
+ 3:cloud run
+ 4: CLoud function
+ 5:App engine
+4:Google cloud NAT is based on Andromeda i.g google Network virtualization stack
+simply andromeda assign port to each vm and remove the proxy 
 
