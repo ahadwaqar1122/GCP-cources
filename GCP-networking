@@ -15,3 +15,17 @@ due to which two diff auto-mode vpc cannot communicate with eachothers.means the
 
 MTU(maximum transmission unit): size in byt to transfer data in packets with the network or outside the network in byte is call MTU it might be 1450/1500/8896 if we want to trasfer packet faster then use 1600 data packets,
 one packet consist of data headers other info default size of mtu is 1450,max is 8896
+
+Cloud NAT gateway:
+1:network Address translation is a technique that use to map the private ips of vm to NAT public facing ips that can communitate with internet,No external request can on servers,NAT gateway is like a device that 
+work as NAT proxy but its by doing this due to high taffic NAT proxy cannot manage request and conguestion created to overcome this issue gcp provide a technique called SDN(software define network) which bind the
+public ip and port on each vm provate ip address to communicate over the internet it is also called endromedia.
+2:cloud NAT allow inboud traffic but restrict inboud traffic.
+3:Cloud Nat gateway provid outboud connectivity to the following  services
+1:compute engine
+2:Google GKE (kubernets engine)
+3:cloud run
+4: CLoud function
+5:App engine
+
+
