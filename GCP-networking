@@ -5,7 +5,7 @@ VPC Types:
 auto-Mode
 Custom-Mode
 1:Auto-mode :
-if we create a vpc with auto-mode it will automatically create subnets in each region.But to Auto-mode vpc can not communicate with each others because if it take same range of ips meant taking same same network ip range 
+if we create a vpc with auto-mode it will automatically create subnets in each region.But to Auto-mode vpc can not communicate with each others because if it take same range whcih is (10.128.0.0/9) of ips meant taking same same network ip range 
 due to which two diff auto-mode vpc cannot communicate with eachothers.means they cannot make pear connections.
 2: Custom-Mode
 
