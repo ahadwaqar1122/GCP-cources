@@ -12,3 +12,6 @@ due to which two diff auto-mode vpc cannot communicate with eachothers.means the
 3: withen the same vpc it also provide tc/udp base internal loadbalancing option.
 4:One vpc can also be a part of project .
 5:share pvc can also used for diff project and common host project.
+
+MTU(maximum transmission unit): size in byt to transfer data in packets with the network or outside the network in byte is call MTU it might be 1450/1500/1890 if we want to trasfer packet faster then use 1600 data packets,
+one packet consist of data headers other info default size of mtu is 1450.
