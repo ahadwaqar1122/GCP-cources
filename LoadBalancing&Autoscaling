@@ -1,1 +1,13 @@
-
+LoadBalancing:
+equaly distribute the traffic between different servers is called LB
+1:it can server 1 million per second request
+2: 80 + global loadbalancing locations providing to route the request.
+Google cloud offers the following loadbalancing features.
+1:Single anycast ip address it means single LB ip address route the request to the all servers that are under LB.
+2: Software defind loadbalancing it means no compatiblety issue,no high availability issue,no vender loacking issue.
+3: seamless Autoscaling , no prewarming means with second new server up and running like we can enable autoscaling for more server availability.
+4: layer 4 mean transport layer tcp/udp and layer 7 LB means Application lb http/https protocols.
+5: External and internal LB.
+6:  Global and Regional Loadbalacner means Global is external loadbalancing it can not be internal LB.
+7: enable CDN For more fast response.
+8:manage ssl certification.
