@@ -11,3 +11,22 @@ Google cloud offers the following loadbalancing features.
 6:  Global and Regional Loadbalacner means Global is external loadbalancing it can not be internal LB.
 7: enable CDN For more fast response.
 8:manage ssl certification.
+
+Which LoadBalancing can we opted or chosen on the base of your requriement.
+
+1: External versus internal Loadbalancing 
+    External means diff regions but in internal it will rout the request withen the network
+2: Global and regional LB 
+      it means Global service work on diff region which region is close it will rout the request to closest one other side regional service can only work with the region even multiple network or vpc
+3:Premium and Standard tier---
+     premium service is basically on own infrastructure its very fast and high availability but in Standard it use normal ISP so we can face letency in that case if 
+     we will not chose by default it will chose permium service.
+4: Proxy --verses pass through
+    proxy--mean without ssl off-loading--when request come on server from LB it is fully encrypted due to ssl but before to go reqest on server in encrypted form ,LB itself decrypt request and send on server so request time
+    reduse between loadbalcer and server because server itself decrypt the request so this is called without ssl off-loading and this method is called proxy.
+  Pass-through:--it is also called direct server request
+     ssl off-loading -- means requsting is coming on laod balacner and LB as it is rout the request to the server without any encryption or decryption but in case of request response it will not respond back to server
+     from  Lb instead of this server directly respond back to user where request is coming.
+
+5: Traffic type like if traffic is http/https use http/https lb or if  trafic is tcp/udp use tcp/udp loadbalancer
+6: DDOS protection(distributed denial of service)---this service is usefull for global and external loadbalacner it is very
