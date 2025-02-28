@@ -1,0 +1,3 @@
+IAM(identity and access management):
+1:granuler access to each service and prevent access to other resources access.
+2:user is called principal
