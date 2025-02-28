@@ -1,3 +1,15 @@
 IAM(identity and access management):
 1:granuler access to each service and prevent access to other resources access.
 2:user is called principal
+IAM has important parts:
+1:Principal/members can access gcp services
+  Google account
+  service account
+  google group
+  google Workspace
+  Google identity domain
+  Authenticated users
+  All users
+2:Roles
+3:Policy
+    policy is the collection of (role + pricipal)
