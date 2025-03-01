@@ -11,5 +11,9 @@ IAM has important parts:
   Authenticated users
   All users
 2:Roles
+  Roles types
+  1:Basic
+  2: predefined
+  3: custom
 3:Policy
     policy is the collection of (role + pricipal)
