@@ -5,6 +5,18 @@ IAM has important parts:
 1:Principal/members can access gcp services
   Google account:  Any email account that use to create the gcp account is an identity can access services.
   service account:   service account is use for application to grant permission to access the services on gcp
+types of service Account:
+  Default Service Account:
+  when we enable or use a service it create a service account, when one want to use other services it use default service account.
+when app engin or compute engine use it will use service account.
+  user managed Service Account:
+we can create a user managed account in our project when we use IAM,APi or cli ,we can create max 100 service account but can increase the limit of this.
+  Google managed service Account: google managed service account are used for google account on our behalf  google is responsible to manage G.S.A
+  Key paired types that service account use to manage
+  google managed key paired
+   for default service account google managed key paired is used and google is responsible to manage this key paired and its security
+  user managed key paired:
+    user manage service account is used user manage key paired and 
   google group:is a collection of google account and serice account.
   google Workspace Account: it is a virtual account or group its part of organization can associated with organization. 
   Google identity domain:
