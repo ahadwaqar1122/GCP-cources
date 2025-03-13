@@ -1,0 +1,14 @@
+Identity Aware-proxy(IAP):
+IAP is an intermediator that establish a https connection with any vm on public ip is called IAP, IAP is a method that give granuler permission to the vm it has its own public ip.
+
+HOW it Works:
+when an application or resource is protected by IAP it can only be accessed throudh proxy by principal can also called user,that user which have correct IAM role and permission.
+when a user try to access resource which is under IAP ,then IAP will check it role with its username and password which authenication authorization user have in there role.
+
+conditions for IAP:
+IAP can not support VPN.
+IAP allow access webapps from anywhere
+IAP follow the zero trust security model
+IAP support google workspace account
+IAP can work for app engine ,Cloud run , GKE  ,compute engine and on-premises.
+
