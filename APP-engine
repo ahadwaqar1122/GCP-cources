@@ -2,5 +2,24 @@ APP-engine:
 Paas (plateform as a service) it is managed service fully serverless
 it is compute service 
 no usage charges ,pay for resource usage  like cpu , ram and other services,
+support diff languages like go,java,.net,python,java
+App-engine Types:
+features           1:Standard                                  2: flexible
+statup                 seconds                                   minuts
+ssh access             No()                                      yes
+Write to local disk     no(cannot access app-engin 
+                           resources write to local disk)        yes(can access app engine resourecs
+                                                                    like ephemrial storage mean inistlized when resource instlized)
+need of vpc            No                                        yes
+prices               free daily use also resoure limitation      pay for resource allocation per hours
 
+scale to zero          if no user no scal but if request come     one instance run in the backend always
+                      it will take time so high latency          no latency
+
+                      
+  scale             two tier frontend and bankend                manual and Automatic scaling
+                        frontend ---automatic scaling            use containerized environment
+                         backed-----manul and basic scaling
+                        use sandbox environment
+  languages            support limetd languages                  support diff languages
 
