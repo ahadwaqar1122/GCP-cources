@@ -9,3 +9,9 @@ cloud-run as a service:  continuous as a service,
 use to run a code that respond to web app or event.
 Cloud-run as a job: is a task that work on specific time period,
 use to run  a code that perform a work or job and quit when the work is done.
+features:
+1: create a unique https endpoint  for every service that give a subdomain it can also be custom.
+2: we can create diff versions splite traffic on diff versions,rollin and rollout trafic
+3: private and public service
+4: price on instance base or request base.
+
