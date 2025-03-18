@@ -1,0 +1,6 @@
+Cloud-functions:
+use single microservices -short interval of time:
+function triger on some actions, function as a service (paas)
+serverless --zero server management
+pay as you go  model
+automated scaling 
