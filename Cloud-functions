@@ -4,3 +4,7 @@ function triger on some actions, function as a service (paas)
 serverless --zero server management
 pay as you go  model
 automated scaling 
+Most common triggers:
+1: cloud storage
+2:pub/sub events
+3:http
