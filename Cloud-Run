@@ -1,0 +1,11 @@
+cloud-run:
+successor of app-engin
+app-engine not available on all region but cloud run available on all region.
+Cloud-Run: managed service,serverless,compute service(cpu,ram),plateform(Paas), 
+Cloud-Run: containerisd enviornment,highly scalable,available, aws ecs fargate service is equal.
+Cloud-run: provide open api run time environement, serverless and run container stateless.
+Cloud-run can use in two way as a continous as a service or as a job.
+cloud-run as a service:  continuous as a service,
+use to run a code that respond to web app or event.
+Cloud-run as a job: is a task that work on specific time period,
+use to run  a code that perform a work or job and quit when the work is done.
