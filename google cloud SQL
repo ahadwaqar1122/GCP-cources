@@ -1,0 +1,33 @@
+Database-cloud SQL:
+fully managed google sql relational databases,
+oracle engine not supported
+it support mysql ,postgress sql and sql server supported.
+backend environement linux,fully managed ,patch upgrade and scaleable database,
+versions support
+1: mysql support: 5.6,5.7 and 8.0
+2: postgress sql: 9.6,10,11,12,13,and 14
+3: sql server 2017,2019 
+max cpu 96 
+ram is 624 GB 
+storage 64TB
+Cloud-sql-instance:
+ DB Run on VM -- but no need to managed (instance vm + s/w like myslq,postgress sql,and sql server)
+Database Instance:
+these are the engine that run on the cloud sql instance.
+
+public and private IP:
+public ip: db is public
+private ip : db is private
+high avaiability:
+high available with multizone or primary and secorndry database
+in case high avaialable both primary or secondry and on diff zone but must be in same region.
+CLone: backup copy of the same database  but its in  new database  not sync to other both are seprate databse.
+
+Replication: in GCP database repication is read replica so make copy of read replica for read operations,  we have two seperate db . read and write.
+
+database upgrade:
+configuration update: it is google base update google update configuration itself
+system update: user relate updates.
+
+
+
