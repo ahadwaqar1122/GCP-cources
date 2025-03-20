@@ -7,5 +7,6 @@ if we are running HBase or apache cassandra database on prime server we can easi
 horizantal scaling ,it Nosql can not run sql query.
 Bigtable easily integrate with Data tools like hadoop.
 
+Bigtable is zonal service.
 
 
