@@ -1,0 +1,11 @@
+cloud-bigtable:
+Fully managed wide colume nosql database low letency signle digit very fast ,very costly use for petabyte  data .
+comparison aws dynamodbtable,
+scale and 99.999% availability.
+use large analytical and operational workload.
+if we are running HBase or apache cassandra database on prime server we can easily migrate to Bigtable database with lift and shift strategy with no downtime.
+horizantal scaling ,it Nosql can not run sql query.
+Bigtable easily integrate with Data tools like hadoop.
+
+
+
