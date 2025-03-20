@@ -1,6 +1,6 @@
 Cloud-spanner:
 Fully managed relational database,unlimited scaling,consistant, mission critical purpose used.
-high database min 2tb data from startup,upto 99.99% available.
+high database min 4tb data from startup,upto 99.99% available.
 aws arrora is equal to comparison of this.
 high scalable and all servers are scyncronze to eachother
 cloud spanners are regional and multiregional service
