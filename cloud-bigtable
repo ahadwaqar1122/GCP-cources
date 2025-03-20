@@ -8,5 +8,15 @@ horizantal scaling ,it Nosql can not run sql query.
 Bigtable easily integrate with Data tools like hadoop.
 
 Bigtable is zonal service.
+Bigtable Instance:     bigtable instance is a container of data ,one instance have one or more cluster located in diff zone withen a region.
+ Each instance have following properties:
+  storage type like ssd/HDD
+  node scaling
+
+Bigtable-cluster: Each cluster have atleast one node  
+
+
+Bigtable-nodes:
+
 
 
