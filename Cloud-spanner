@@ -5,5 +5,11 @@ aws arrora is equal to comparison of this.
 high scalable and all servers are scyncronze to eachother
 cloud spanners are regional and multiregional service
 Logistic,e-commerence, gaming application use cloud spannerdb
+price:
+network bandwith,nodes price,storage.
+cloud spanners limitations;
+no lift and shift not use means cannot migrate to other database,
+lot of tirggers in database then we cannot use cloud spanners.
+it give small letnecy if our requriement in nano seconds then we cannot use cloud spanners.
 
 
