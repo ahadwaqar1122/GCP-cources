@@ -27,7 +27,8 @@ Maintenance window scheuling between one week any day we can reschedule,it might
 import and export of Redis Data:
 we can import or export data from on premises in (.RDB) format.
 versions backward compatibility: 
-yes we import data from lower version like 4.0 to higher version like 5.0 easily but we can import from higher verion of data on on-prime server to lowe version on cloud-redis. 
+yes we import data from lower version like 4.0 to higher version like 5.0 easily but we cannot import from higher verion like 5.0 of data on on-prime server to lowe version on cloud-redis like 4.1.
+before import data first we copy data in cloud storage bucket then import it and buct and cloud-memory store like redis must be in same region.
 
 
 
