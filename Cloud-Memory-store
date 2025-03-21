@@ -19,6 +19,15 @@ Read Replica Behaviours
 once read replicas enabled cannot be disabled
 max read replicas can have 1 to 5
 read replicas limitations only 5GB instace can use for this and also its version 5 or max
+full sync:
+when in a case primary db cannot properly sync with read replicas then at that case it will take a snapshot and add it to the read replicas to fill the gap.
+Maintenance for Redis:
+we have to set the time duration for maintenance maximum time duration maintnance is one hours like free time no user request coming on the server.
+Maintenance window scheuling between one week any day we can reschedule,it might be any time  or day,but  maintenance before one hour we can  rechedule.
+import and export of Redis Data:
+we can import or export data from on premises in (.RDB) format.
+versions backward compatibility: 
+yes we import data from lower version like 4.0 to higher version like 5.0 easily but we can import from higher verion of data on on-prime server to lowe version on cloud-redis. 
 
 
 
