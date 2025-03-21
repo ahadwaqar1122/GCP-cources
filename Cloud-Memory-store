@@ -8,4 +8,17 @@ managed service for gcp
 Basic service  and standard
 scaling and highly available from 99.999%
 secure. we can import from on -premises to gcp redis.
+google not giving any public to redis only private is giving to redis.
+RAM 300 GB for each node.
+Google Redis can be used with
+ Google App engine
+google compute Engine
+google cloud functions
+google GKE Cluster 
+Read Replica Behaviours
+once read replicas enabled cannot be disabled
+max read replicas can have 1 to 5
+read replicas limitations only 5GB instace can use for this and also its version 5 or max
+
+
 
