@@ -1,1 +1,11 @@
 Cloud-Memory-store:
+Redis: its also part database use key value store database
+in memory data store ,open source two open source cacheing service names are
+Redis ,memcache.
+Memory-store for Redis:
+Data store in RAM .
+managed service for gcp
+Basic service  and standard
+scaling and highly available from 99.999%
+secure. we can import from on -premises to gcp redis.
+
