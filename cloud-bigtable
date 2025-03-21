@@ -13,10 +13,11 @@ Bigtable Instance:     bigtable instance is a container of data ,one instance ha
   storage type like ssd/HDD
   node scaling
 
-Bigtable-cluster: Each cluster have atleast one node  
+Bigtable-cluster: Each cluster have atleast one node, cluster is group node ,cluster is the one who handle the requet because node inside the cluster.
+  Replication cluster option also available.
 
-
-Bigtable-nodes:
+Bigtable-nodes: Each cluster have atleast one or more node, node is compute it is seprate from storage data never store in node it store in storage that attached with node.
+Bigtable faile data will not lose beacause it is fully managed service from google.
 
 
 
