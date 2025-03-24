@@ -10,7 +10,7 @@ min distance between two zones are 100miles
 
 3:Asia-pasific
 multi-region all region are inter-connected to each other they are giving avaialility and falut toularance
-multi-region resources like global services : App engin,bigquery ,bi gtable,cloudstorage,spanner,datastore,firestore and artifact registroy.
+multi-region resources like global services : App engin,bigquery ,bigtable,cloudstorage,spanner,datastore,firestore and artifact registroy.
 
 RESOURCE Herarchy
 1:Organisation: highest permission and policy
