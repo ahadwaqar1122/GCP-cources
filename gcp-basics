@@ -2,7 +2,7 @@ Course-details:
 Region:collection of zones
 GCP-regions: total regions 29
 ahowa region--4 zone(a,b,c,s) 
-Each region have 3 zone(called Datacenter)
+Each region have 3 zone(called Data-center)
 min distance between two zones are 100miles
 1:USA
 
