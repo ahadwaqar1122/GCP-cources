@@ -31,10 +31,17 @@ Serverless-------App-engine
                 cloud-function
  vm type on GCP
  custom machine
- we can create vm according to our need like its cpu and ram as per our need we can select
+we can create vm according to our need like its cpu and ram as per our need we can select
+we can  customize resources like cpu and ram we can choose the resources as per our requrienment very Unique features.
 predefined Machine
 but in predefined we can chose given formate that is best close to our need we can not go minimum limit of scope
-predefind GCE family or types
+predefind GCE family or types, Google already made diff cpu ram template that we choose.
+
+GCP provide max 3.75TB ram for virtual machine.
+We can attach local attach storage (direct attach storage or instance store)up 3TB this is temporary storage.
+We can add up 64 TB storage for persistant disk.
+important::
+All data in GCP all data is encrypted default encryption key 
 
 General Purpose---------types
 E2   day-to-day computing a lower cost
