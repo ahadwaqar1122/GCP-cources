@@ -17,12 +17,13 @@ RESOURCE Herarchy
 Organisation--folder--projects--resources
 
 1:Organisation: highest permission and policy
+tope level permissions.
 
-2:Folder
+2:Folder: nested folder are possible
 3:Projects
 4: Resources: Vm or any other resource all permission and rules will apply only on resources
 
-Compute-engine-------types  compute-engine
+Compute-engine  -------types  compute-engine
                           k8s engine
                           vmware-engine
 Serverless-------App-engine
