@@ -14,6 +14,8 @@ multi-region all region are inter-connected to each other they are giving avaial
 multi-region resources like global services : App engin,bigquery ,bigtable,cloudstorage,spanner,datastore,firestore and artifact registroy.
 
 RESOURCE Herarchy
+Organisation--folder--projects--resources
+
 1:Organisation: highest permission and policy
 
 2:Folder
