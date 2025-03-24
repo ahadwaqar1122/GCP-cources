@@ -1,14 +1,15 @@
 Course-details:
 GCP-regions: total regions 29
-ahowa region--4 region
-Each region have 3 zone
+ahowa region--4 zone(a,b,c,s) 
+Each region have 3 zone(called Datacenter)
+min distance between two zones are 100miles
 1:USA
 
 2:Europ
 
 3:Asia-pasific
 multi-region all region are inter-connected to each other they are giving avaialility and falut toularance
-multi-region resources like global services : App engin,bigquery ,bugtable,cloudstorage,spanner,datastore,firestore and artifact registroy.
+multi-region resources like global services : App engin,bigquery ,bi gtable,cloudstorage,spanner,datastore,firestore and artifact registroy.
 
 RESOURCE Herarchy
 1:Organisation: highest permission and policy
