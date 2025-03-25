@@ -46,12 +46,14 @@ All data in GCP all data is encrypted default encryption key
 Instnace--types
 
 General Purpose---------types
-E2   day-to-day computing a lower cost
-N1/N2/N2D   balanced price and performace accorss wide range of vm shapes
+E2   day-to-day computing a lower cost,low traffic,testing purpose,containerise environement,small databases.
+N1/N2/N2D N4:  balanced price and performace accorss wide range of vm shapes like Medium traffic,containerise environement,batch processing,
 Tau/T2D:    scale in and scale out workload instance
+C4A, C4, C3, C3D: high traffic,media straming,Databases and caches,gaming servers.
 
 Memory-Optimized--Instance-Type(RAM ultra high workload)
 M1/M2: ultra high memory workload task like cash memory or databases like work
+Large and medium in-memory databases such as SAP HANA,OLAP and OLTP SAP workloads
 
 Compute-optimized(CPU)
 c2/C2D: compute workload like banking transctions Gamming ,add serving ,media transcoding
