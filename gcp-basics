@@ -42,6 +42,8 @@ We can attach local attach storage (direct attach storage or instance store)up 3
 We can add up 64 TB storage for persistant disk.
 important::
 All data in GCP all data is encrypted default encryption key 
+ 
+Instnace--types
 
 General Purpose---------types
 E2   day-to-day computing a lower cost
