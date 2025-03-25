@@ -58,8 +58,8 @@ Large and medium in-memory databases such as SAP HANA,OLAP and OLTP SAP workload
 Compute-optimized(CPU)
 c2/C2D: compute workload like banking transctions Gamming ,add serving ,media transcoding
 
-Accelerated Optimized:
-A2: Grapgics cards support high supporting computing , parrallel processing
+Accelerated Optimized: used for GPU accelerated workloads such as artificial intelligence (AI), machine learning (ML), and high performance computing (HPC).
+A2: Pre-training models(AL),Fine-tuning models,Graphics-intensive workloads,
 
 storage-optimized(z3):workloads that are low in core usage(cpu core) and high in storage density like
 Z3:sql,NoSql,Vector database,searching.
