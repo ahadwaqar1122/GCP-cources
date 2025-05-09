@@ -46,6 +46,9 @@ if live object delete --make non current Versions
 if non-current version delete cannot be recoverd
 Each Non-current object have a unique generation number
 
+Bucket-size:
+bucket size is unlimted but size one object can mamimum 5TB.
+
 Life cycle Policy:
 signed URL in cloud-storage:
 signed URL is a way to give a permission to any unauthorized user of any particuler file in the storage class not all data only speceific file permission can give 
