@@ -17,6 +17,8 @@ fast reliable
 less data retrival time
 regional service is redunent means its repica or object will remain in the same region
 best is to chose dual-region or multi-region it means its replica will save in other region for high availability and fault tolernace.
+we can access cloud storage in four diff ways
+1 console,2:cloud shell,3:client libiraries,4:rest api
 
 Nearline storage:
 1:it is low cost storage as compared to standard storage
